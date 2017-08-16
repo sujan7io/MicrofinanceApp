@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="WpfApp3.UserControlLogin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp3"
+             mc:Ignorable="d" HorizontalAlignment="Center" VerticalAlignment="Center" Height="377.586" Width="287.931">
+    <Grid Background="Black">
+        <Label  HorizontalAlignment="Left" Margin="79,10,0,0" VerticalAlignment="Top" Width="155" FontWeight="Bold" FontSize="16" Height="126">
+            <Label.Background>
+                <ImageBrush>
+                    <ImageBrush.ImageSource>
+                        <BitmapImage UriSource="file:///E:/sujan/MicroFinanceApp/WpfApp3/Resources/9new.png"/>
+                    </ImageBrush.ImageSource>
+                </ImageBrush>
+            </Label.Background>
+        </Label>
+        <Button  HorizontalAlignment="Left" VerticalAlignment="Top" Width="37" Height="41" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush>
+                    <ImageBrush.ImageSource>
+                        <BitmapImage UriSource="file:///E:/sujan/MicroFinanceApp/WpfApp3/Resources/10new.png"/>
+                    </ImageBrush.ImageSource>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="40,141,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="239" Background="#FF0E0D0D" Foreground="#FFF7F4F4" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="40,192,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="239" Background="#FF0F0E0E" Foreground="#FFFFFBFB" FontSize="16"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="40,227,0,0" VerticalAlignment="Top" Width="239" Height="62">
+            <Button.Background>
+                <ImageBrush>
+                    <ImageBrush.ImageSource>
+                        <BitmapImage UriSource="file:///E:/sujan/MicroFinanceApp/WpfApp3/Resources/11new.png"/>
+                    </ImageBrush.ImageSource>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Forgot password?" HorizontalAlignment="Left" Margin="132,306,0,0" VerticalAlignment="Top" Width="147" Height="27" Foreground="#FFFBF6F6" FontSize="14" Click="Button_Click_1">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="132,338,0,0" VerticalAlignment="Top" Width="147" Height="27" Foreground="#FFFBF6F6" FontSize="14" Click="Button_Click_2">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</UserControl>
